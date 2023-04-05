@@ -1,0 +1,1 @@
+default passwords 12345 or 12345678

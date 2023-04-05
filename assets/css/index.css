@@ -1,0 +1,31 @@
+.imgcontainer {
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 7%;
+    border-radius: 10%;
+    margin-bottom: 0;
+}
+
+#info {
+    padding: 10px;
+    border: groove;
+    text-align: center;
+    margin: 0.5%;
+    font-size: large;
+}
+@media screen and (min-width: 768px) {
+	.user_form {
+		display: grid !important;
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: auto;
+		grid-column-gap: 10px;
+	}
+}
+/* @media screen and (min-width: 992px) {
+	.user_form {
+		grid-template-columns: repeat(3, 1fr);
+	}
+} */
